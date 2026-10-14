@@ -15,15 +15,15 @@ function App() {
       <Routes>
         <Route path="/Toy-store" element={<Home />} />
         <Route
-          path="/Toy-store/products/stuffed/:slugOrId"
+          path="/products/stuffed/:slugOrId"
           element={<StuffedProductDetailsPage />}
         />
         <Route
-          path="/Toy-store/products/wooden/:slugOrId"
+          path="/products/wooden/:slugOrId"
           element={<WoodenProductDetailsPage />}
         />
-        <Route path="/Toy-store/cart" element={<CartPage />} />
-        <Route path="/Toy-store/checkout" element={<CheckoutPage />} />
+        <Route path="/cart" element={<CartPage />} />
+        <Route path="/checkout" element={<CheckoutPage />} />
       </Routes>
       <Fotter />
     </>
