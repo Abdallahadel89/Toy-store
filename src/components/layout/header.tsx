@@ -90,7 +90,7 @@ export default function Header() {
                   <nav className="mt-4">
                     <ul className="flex flex-col gap-3 text-lg font-medium">
                       <li>
-                        <Link to="/" onClick={() => setNavSheetOpen(false)}>
+                        <Link to="/Toy-store" onClick={() => setNavSheetOpen(false)}>
                           Home
                         </Link>
                       </li>
@@ -114,7 +114,7 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <CartTriggerButton className="relative m-0 p-0 text-2xl">
+              <CartTriggerButton className="relative m-0 p-0 text-3xl">
                 <FaShoppingBag />
                 {totalQuantity > 0 && (
                   <span className="absolute -right-2 -top-2 flex size-4 items-center justify-center rounded-full bg-gr text-[10px] font-bold text-white">
