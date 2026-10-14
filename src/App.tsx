@@ -13,17 +13,17 @@ function App() {
       <Header />
       <CartDrawer />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/Toy-store" element={<Home />} />
         <Route
-          path="/products/stuffed/:slugOrId"
+          path="/Toy-store/products/stuffed/:slugOrId"
           element={<StuffedProductDetailsPage />}
         />
         <Route
-          path="/products/wooden/:slugOrId"
+          path="/Toy-store/products/wooden/:slugOrId"
           element={<WoodenProductDetailsPage />}
         />
-        <Route path="/cart" element={<CartPage />} />
-        <Route path="/checkout" element={<CheckoutPage />} />
+        <Route path="/Toy-store/cart" element={<CartPage />} />
+        <Route path="/Toy-store/checkout" element={<CheckoutPage />} />
       </Routes>
       <Fotter />
     </>
