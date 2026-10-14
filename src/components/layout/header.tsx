@@ -45,7 +45,7 @@ export default function Header() {
         <div className="mx-auto hidden md:flex flex-col md:flex-row items-center md:justify-between px-4 md:px-0 text-lg md:text-2xl mt-5  pb-5 gap-4 md:gap-0  md:mx-[17em] bg-transparent ">
           <ul className="flex flex-wrap justify-center md:justify-start gap-4 md:gap-7 my-auto ">
             <li className="font-medium">
-              <Link to="/">ToyStore</Link>
+              <Link to="/Toy-store">ToyStore</Link>
             </li>
             <li className="font-medium">
               <a href="">Catalog</a>

@@ -2,6 +2,10 @@
 
 
 
+import trophyIcon from "../../assets/icons/trophy 1.svg";
+import groupIcon from "../../assets/icons/Group.svg";
+import shippingIcon from "../../assets/icons/shipping.svg";
+import supportIcon from "../../assets/icons/customer-support.svg";
 export default function Guarantee() {
 
 
@@ -13,7 +17,7 @@ export default function Guarantee() {
           {/* Feature 1 */}
           <div className="flex flex-col items-center text-center sm:text-left sm:flex-row">
             <img
-              src="/src/assets/icons/trophy 1.svg"
+              src={trophyIcon}
               alt="High Quality"
               className="mr-2 mb-4 sm:mb-0"
             />
@@ -30,7 +34,7 @@ export default function Guarantee() {
           {/* Feature 2 */}
           <div className="flex flex-col items-center text-center sm:text-left sm:flex-row">
             <img
-              src="/src/assets/icons/Group.svg"
+              src={groupIcon}
               alt="Warranty Protection"
               className="mr-2 mb-4 sm:mb-0"
             />
@@ -47,7 +51,7 @@ export default function Guarantee() {
           {/* Feature 3 */}
           <div className="flex flex-col items-center text-center sm:text-left sm:flex-row">
             <img
-              src="/src/assets/icons/shipping.svg"
+              src={shippingIcon}
               alt="Free Shipping"
               className="mr-2 mb-4 sm:mb-0"
             />
@@ -64,7 +68,7 @@ export default function Guarantee() {
           {/* Feature 4 */}
           <div className="flex flex-col items-center text-center sm:text-left sm:flex-row">
             <img
-              src="/src/assets/icons/customer-support.svg"
+              src={supportIcon}
               alt="24 / 7 Support"
               className="mr-2 mb-4 sm:mb-0"
             />
